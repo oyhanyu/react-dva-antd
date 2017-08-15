@@ -1,0 +1,45 @@
+{
+  "name": "react-dva-antd",
+  "version": "0.1.0",
+  "description": "基于dva和antd的React单页面应用",
+  "author": "oyhanyu",
+  "scripts": {
+    "dev": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src"
+  },
+  "pre-commit": ["lint"],
+  "engines": {
+    "install-node": "6.9.2"
+  },
+  "dependencies": {
+    "antd": "^2.11.1",
+    "babel-runtime": "^6.9.2",
+    "dva": "^1.2.1",
+    "dva-loading": "^0.2.1",
+    "fast-json-patch": "^2.0.3",
+    "immutable": "^3.8.1",
+    "path-to-regexp": "^1.7.0",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-import": "^1.2.1",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "expect": "^1.20.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "husky": "^0.12.0",
+    "pre-commit": "^1.2.2",
+    "redbox-react": "^1.3.2",
+    "roadhog": "^0.5.2"
+  }
+}
